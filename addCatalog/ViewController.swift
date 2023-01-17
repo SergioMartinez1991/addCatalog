@@ -5,6 +5,9 @@
 //  Created by Sergio on 12/01/23.
 //
 
+// este es un comentario para primera prueba de Sergio buen dia para todos
+// Sergio CAMBIO LOS COLORES DE FONDO A LILA
+
 import UIKit
 
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
