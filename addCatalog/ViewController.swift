@@ -33,7 +33,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     @IBOutlet weak var listaMunicipio: UIButton!
     
     //tipo de alerta
-    @IBOutlet weak var listaParentesco: UIButton!
+   
     
     //tipo de alerta
     @IBOutlet weak var showList: UIView!
@@ -83,18 +83,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     
     
     //tipo de alerta
-    @IBAction func buttonParen(_ sender: Any) {
-        showList.isHidden = false
-                table = "parentesco"
-                let path = Bundle.main.path(forResource: "estados", ofType: "plist")!
-                let dict = NSDictionary(contentsOfFile: path)
-                myTable.delegate = self
-                myTable.dataSource = self
-                
-                tableData = dict!.object(forKey: "Parentesco") as! [String]
-                tableidData = dict!.object(forKey: "idParentesco") as! [String]
-                myTable.reloadData()
-    }
+  
     
     
     override func viewDidLoad() {
@@ -151,7 +140,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     //        }else {
                idParentesco = tableidData[indexPath.row]
                 txtParentesco = tableData[indexPath.row]
-                listaParentesco.setTitle(txtParentesco, for: .normal)
+                //listaParentesco.setTitle(txtParentesco, for: .normal)
             }
   /*          tableView.deselectRow(at: indexPath, animated: true)
         }*/

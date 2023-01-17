@@ -50,21 +50,6 @@
                                     <action selector="buttonMun:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oGU-Vc-eh2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ejl-Yu-20u">
-                                <rect key="frame" x="16" y="297" width="358" height="50"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="E9I-8h-Vf5"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="26"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Seleccione">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="buttonParen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mVg-hh-bgx"/>
-                                </connections>
-                            </button>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VZp-pW-9ZL">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <subviews>
@@ -110,13 +95,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ejl-Yu-20u" secondAttribute="trailing" constant="16" id="3cM-dx-7UL"/>
                             <constraint firstItem="yd9-4g-f4B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4RO-Fe-6Fp"/>
                             <constraint firstItem="yd9-4g-f4B" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="6dH-UK-vTR"/>
                             <constraint firstItem="FnA-ah-fAP" firstAttribute="top" secondItem="rwP-5x-PRb" secondAttribute="bottom" constant="50" id="7dJ-vz-wZe"/>
                             <constraint firstAttribute="bottom" secondItem="yd9-4g-f4B" secondAttribute="bottom" id="9um-7U-Lvv"/>
-                            <constraint firstItem="Ejl-Yu-20u" firstAttribute="top" secondItem="FnA-ah-fAP" secondAttribute="bottom" constant="50" id="B7M-2P-JCC"/>
-                            <constraint firstItem="Ejl-Yu-20u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="CIb-Mt-cCa"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FnA-ah-fAP" secondAttribute="trailing" constant="16" id="CUF-9T-Wh4"/>
                             <constraint firstItem="VZp-pW-9ZL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JLo-qQ-kc3"/>
                             <constraint firstItem="VZp-pW-9ZL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="LFe-Is-N7A"/>
@@ -132,7 +114,6 @@
                     <connections>
                         <outlet property="listaEstados" destination="rwP-5x-PRb" id="x9q-Hj-IaQ"/>
                         <outlet property="listaMunicipio" destination="FnA-ah-fAP" id="Naj-S2-Alb"/>
-                        <outlet property="listaParentesco" destination="Ejl-Yu-20u" id="IYI-ty-OAY"/>
                         <outlet property="myTable" destination="SvC-Lb-NJN" id="06b-g7-MFg"/>
                         <outlet property="showList" destination="VZp-pW-9ZL" id="ed0-uy-KGG"/>
                     </connections>
