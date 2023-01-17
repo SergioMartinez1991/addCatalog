@@ -6,7 +6,7 @@
 //
 
 // este es un comentario para primera prueba de Sergio buen dia para todos
-
+// Sergio CAMBIO LOS COLORES DE FONDO A LILA
 
 import UIKit
 
